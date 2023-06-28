@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, PermissionsAndroid} from 'react-native';
-import GeolocationMap from './android/app/src/GeolocationMap';
-import MapScreen from './android/app/src/Mapscreen';
+
+import MapScreen from './src/Mapscreen';
 class App extends Component {
   render() {
     return (
